@@ -90,7 +90,7 @@ function initialize()
 
 	let geometry1 = new THREE.PlaneBufferGeometry(4.3,4.3, 5,5);
 	let loader = new THREE.TextureLoader();
-	let texture = loader.load( "/static/resimler/{{resim}}", render );
+	let texture = loader.load( "/static/pictures/{{resim}}", render );
 	let material1 = new THREE.MeshBasicMaterial( { map: texture } );
 	
 	mesh1 = new THREE.Mesh( geometry1, material1 );
