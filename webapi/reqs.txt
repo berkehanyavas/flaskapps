@@ -1,3 +1,9 @@
 beautifulsoup4
 requests
 flask
+json
+urllib
+re
+random
+os
+sqlite3

@@ -48,7 +48,7 @@ def letterboxd_sync(id):
 def qr_liste():
     url = 'http://webapi.berkehanyavas.com/qr'
     a = {}
-    resimler = os.listdir('C:/Users/berke/Desktop/qrapp/static/resimler')
+    resimler = os.listdir('C:/Users/berke/Desktop/qrapp/static/pictures')
     for i in resimler:
         a[i] = f'{url}/sec/{i}'
     return jsonify(a)
